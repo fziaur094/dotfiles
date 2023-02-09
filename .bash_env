@@ -1,0 +1,2 @@
+# .bash_env must be sourced from .bashrc
+export GPG_TTY=$(tty)
