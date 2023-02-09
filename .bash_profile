@@ -4,7 +4,7 @@
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # RIO cDVR workspace integration
-RIO_WORKSPACE_DIR="${RIO_WORKSPACE_DIR:-$HOME/rio-cdvr-workspace}"
+RIO_WORKSPACE_DIR="${RIO_WORKSPACE_DIR:-$HOME/rio}"
 export RIO_WORKSPACE_DIR
 
 RIO_BASH_PROFILE_ADDITIONS="$RIO_WORKSPACE_DIR/initial-setup-files/bash_profile-additions"

@@ -1,5 +1,4 @@
 # .profile is executed for interactive login shells, but ~/.bash_profile, ~/.zsh_profile etc. have precedence
-echo -e "\x1b[32m<< .profile\x1b[0m"
 
 # appends a directory to local $PATH if directory exists and is not already in $PATH
 append_to_path() {
@@ -17,7 +16,7 @@ prepend_to_path() {
 export CLICOLOR=1
 
 # Rio cDVR workspace integration
-RIO_WORKSPACE_DIR="${RIO_WORKSPACE_DIR:-"$HOME/rio-cdvr-workspace"}"
+RIO_WORKSPACE_DIR="${RIO_WORKSPACE_DIR:-"$HOME/rio"}"
 export RIO_WORKSPACE_DIR
 
 RIO_PROFILE_ADDITIONS="$RIO_WORKSPACE_DIR/initial-setup-files/profile-additions"
