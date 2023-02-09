@@ -1,0 +1,16 @@
+[url "git@github.comcast.com:"]
+	insteadOf = https://github.comcast.com/
+
+[url "git@github.com:rio-cdvr/"]
+	insteadOf = https://github.com/rio-cdvr/
+
+[user]
+	name = Zia Ur Rehman
+	email = 118020136+fziaur094@users.noreply.github.com
+	signingKey = 9DF472CF
+
+[pull]
+	ff = true
+
+[init]
+	defaultBranch = main
